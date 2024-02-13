@@ -13,11 +13,8 @@ class ProductsOverViewPage extends StatelessWidget {
       appBar: AppBar(
         title: const Text(
           'Minha loja',
-          style: TextStyle(
-            color: Colors.white,
-          ),
+          style: TextStyle(),
         ),
-        backgroundColor: Colors.blue,
       ),
       body: GridView.builder(
         padding: const EdgeInsets.all(10),
