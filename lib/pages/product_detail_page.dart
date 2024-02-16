@@ -2,14 +2,12 @@ import 'package:flutter/material.dart';
 import 'package:flutter_shop/models/product.dart';
 
 class ProductDetail extends StatelessWidget {
-  final Product product;
-  const ProductDetail({
-    super.key,
-    required this.product,
-  });
+  const ProductDetail({super.key});
 
   @override
   Widget build(BuildContext context) {
+    final Product product =
+        ModalRoute.of(context)?.settings.arguments as Product;
     return Scaffold(
       appBar: AppBar(
         title: Text(
