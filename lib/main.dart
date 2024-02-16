@@ -25,7 +25,7 @@ class MyApp extends StatelessWidget {
       )),
       home: ProductsOverViewPage(),
       routes: {
-        AppRoutes.productDetail: (ctx) => ProductDetail(),
+        AppRoutes.productDetail: (ctx) => ProductDetailPage(),
       },
       debugShowCheckedModeBanner: false,
     );
